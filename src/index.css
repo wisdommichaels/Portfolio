@@ -22,5 +22,17 @@ body {
 .menu-btn {
   @apply w-10 h-10 grid place-items-center bg-zinc-50/10 
   rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] 
-  backdrop-blur-2xl hover:bg-zinc-50/15 transition[transform, background-color] active:scale-95;
+  backdrop-blur-2xl hover:bg-zinc-50/15 
+  transition-transform active:scale-95;
+}
+
+/* navbar */
+.navbar{
+  @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10
+  rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate blur-sm
+  opacity-0 invisible transition-transform
+}
+
+.navbar.active {
+  @apply scale-100 opacity-100 visible blur-0;
 }
