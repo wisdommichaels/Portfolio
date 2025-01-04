@@ -10,8 +10,29 @@ scroll-behavior: smooth ;
 }
 
 body {
-  @apply bg-zinc-900 text-zinc-50 h-[200vh];
+  @apply bg-zinc-900 text-zinc-50;
 }
+
+
+/* ===================*\
+*Typography
+\* ==================== */
+
+.headline-1{
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.headline-1{
+  @apply text-[40px] leading-tight font-semibold 
+ lg:text-[55px] lg:leading-[1.15];
+}
+
+
+
 
 
 /* ===================*\
@@ -23,6 +44,19 @@ body {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0
   "opsz" 24; 
 }
+
+.container{
+  @apply mx-auto px-4 lg:px-8 xl:max-w-6xl ;
+}
+
+.img-box{
+  @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover{
+  @apply w-full h-full object-cover;
+}
+
 
 
 /* ===================*\

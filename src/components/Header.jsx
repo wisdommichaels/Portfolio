@@ -20,12 +20,11 @@ const [navOpen, setNavOpen] = useState(false);
                 className="logo"
                 >
                     <img 
-                    src="/logo.png"
+                    src="https://res.cloudinary.com/duwfbyhyq/image/upload/v1734090355/logo_hhzggz.webp"
                     width={40}
                     height={40}
                     alt="GomyCode"
                     />
-                    GomyCode
                 </a>
             </h1>
 
