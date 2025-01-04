@@ -1,5 +1,5 @@
 /**
- * @copyright 2025 Wisdom michael (c)
+ * @copyright 2025 Wisdom Michael (c)
  * @license Apache-2.0
  */
 
