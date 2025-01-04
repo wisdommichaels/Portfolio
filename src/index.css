@@ -103,9 +103,26 @@ body {
 
 .btn{
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium
-  text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
+  text-sm ring-1 ring-zinc-50/5 ring-inset hover:bg-zinc-400  transition-[background-color]
 }
 
 .btn-secondary{
   @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80;
+}
+
+.btn .material-symbols-rounded{
+  @apply text-[18px];
+}
+
+
+.btn:has( .material-symbols-rounded) {
+  @apply pr-3;
+}
+
+.btn-primary {
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400;
+}
+
+.btn-outline {
+  @apply h-11  bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
 }
