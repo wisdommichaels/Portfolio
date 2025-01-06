@@ -10,7 +10,7 @@ scroll-behavior: smooth ;
 }
 
 body {
-  @apply bg-zinc-900 text-zinc-50;
+  @apply bg-zinc-950 text-zinc-50;
 }
 
 
@@ -21,7 +21,14 @@ body {
 .headline-1{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
-  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.headline-2{
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   
 }
@@ -29,6 +36,10 @@ body {
 .headline-1{
   @apply text-[40px] leading-tight font-semibold 
  lg:text-[55px] lg:leading-[1.15];
+}
+
+.headline-2{
+  @apply text-3xl font-semibold lg:text-4xl lg:leading-tight;
 }
 
 
@@ -107,11 +118,11 @@ body {
 
 .btn{
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium
-  text-sm ring-1 ring-zinc-50/5 ring-inset hover:bg-zinc-400  transition-[background-color]
+  text-sm ring-1 ring-zinc-50/5 ring-inset hover:bg-purple-400  transition-[background-color]
 }
 
 .btn-secondary{
-  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80;
+  @apply bg-purple-500 text-white active:bg-purple-300/80;
 }
 
 .btn .material-symbols-rounded{
@@ -124,7 +135,7 @@ body {
 }
 
 .btn-primary {
-  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400;
+  @apply h-11 bg-purple-500 text-white hover:bg-purple-400 active:bg-purple-500;
 }
 
 .btn-outline {
