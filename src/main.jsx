@@ -9,6 +9,7 @@ import { createRoot } from 'react-dom/client'
 
 // Import the CSS file
 import './index.css'
+import 'lenis/dist/lenis.css';
 
 // Import the App component
 import App from './App.jsx'

@@ -4,6 +4,12 @@
  */
 
 import ReactLenis from "lenis/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+
+// register gsap plugin
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 // Components imports
 import About from "./components/About"
@@ -18,6 +24,27 @@ import Work from "./components/Work"
 
 
 const  App = () => {
+  // Use useGSAP to animate elements on scroll
+  useGSAP(() => {
+    const element = gsap.utils.toArray('.reveal-up');
+   element.forEach((element) => {
+     gsap.to(element, {
+      scrollTrigger: {
+        trigger: element,
+        start: "-200 bottom",
+        scrub: true,
+        markers: true,
+      },
+       y: 0,
+       opacity: 1,
+       duration: 1,
+       ease: "power2.out"
+    });
+   });
+    
+  });
+
+
   return (
     <ReactLenis root>
       <Header />

@@ -24,7 +24,7 @@ const About = () => {
     className="section"
     >
         <div className="container">
-            <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+            <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                 <p className="text-zinc-300 mb-4 md:mb-8 text-lg md:text-xl md:max-w-[60ch]">
                      Welcome! I&apos;m Wisdom, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
                 </p>
