@@ -33,6 +33,14 @@ body {
   
 }
 
+.headline-3{
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
 .headline-1{
   @apply text-[40px] leading-tight font-semibold 
  lg:text-[55px] lg:leading-[1.15];
@@ -40,6 +48,10 @@ body {
 
 .headline-2{
   @apply text-3xl font-semibold lg:text-4xl lg:leading-tight;
+}
+
+.headline-3{
+  @apply text-[26px] font-semibold lg:text-4xl lg:leading-tight;
 }
 
 .title-1{
@@ -144,4 +156,19 @@ body {
 
 .btn-outline {
   @apply h-11  bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
+}
+
+
+/* text-field */
+.label{
+  @apply block text-sm font-normal text-zinc-200 mb-2;
+}
+
+.text-field{
+  @apply outline-none w-full py-4 px-4 text-sm rounded-xl bg-zinc-800 text-zinc-50/50
+  ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-2 focus:ring-purple-400;
+}
+
+.text-field::placeholder{
+  @apply text-zinc-400;
 }
