@@ -5,43 +5,50 @@
 
 import ProjectCard from "./ProjectCard";
 
+
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736244937/Screenshot_2025-01-07_111502_zblkbl.png',
+      title: 'GiftCard Trading Website',
       tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      projectLink: 'https://www.rexiexchange.com.ng'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736242302/Screenshot_2025-01-07_102928_cujfl2.png',
+      title: 'Dog Insurance Website',
+      tags: ['API', 'MVC', 'Development'],
+      projectLink: 'https://wisdommichaels.github.io/dogInsurance/'
+    },
+    {
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245774/Screenshot_2025-01-07_112854_jhvliy.png',
+      title: 'Sneaker Store Website',
       tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      projectLink: 'https://wisdommichaels.github.io/Store-Landing-Page/'
     },
     {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245908/Screenshot_2025-01-07_113128_ecnfg3.png',
+      title: 'Traveling Agency Website',
       tags: ['Development', 'API'],
       projectLink: ''
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245458/Screenshot_2025-01-07_112350_xizmki.png',
+      title: 'RealTime Weather App',
       tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      projectLink: 'https://wisdommichaels.github.io/Realtime_Weather_App/'
     },
     {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736246143/Screenshot_2025-01-07_113433_dlexqu.png',
+      title: 'My Personal Portfolio',
       tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+      projectLink: ''
     },
-    {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-    },
+    // {
+    //   imgSrc: '/images/project-6.jpg',
+    //   title: 'vCard Personal portfolio',
+    //   tags: ['Web-design', 'Development'],
+    //   projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    // },
   ];
 
 
@@ -57,9 +64,15 @@ const Work = () => {
                 My portfolio highlights
             </h2>
 
-            <div className="">
+            <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
                {works.map(({imgSrc, title, tags, projectLink}, key) => (
-                <ProjectCard/>
+                <ProjectCard
+                    key={key}
+                    imgSrc={imgSrc}
+                    title={title}
+                    tags={tags}
+                    projectLink={projectLink}
+                />
                ))}
             </div>
         </div>
