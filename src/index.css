@@ -10,7 +10,7 @@ scroll-behavior: smooth ;
 }
 
 body {
-  @apply bg-zinc-950 text-zinc-50;
+  @apply bg-zinc-950  text-zinc-50;
 }
 
 
@@ -176,3 +176,22 @@ body {
 .text-field::placeholder{
   @apply text-zinc-400;
 }
+
+
+.gradient {
+	background: linear-gradient(334deg,  #09090B, #09090B, #09090B, #09090B, #09090B,#864BC0);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+/* @keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */

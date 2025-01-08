@@ -10,37 +10,37 @@ const works = [
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736244937/Screenshot_2025-01-07_111502_zblkbl.png',
       title: 'GiftCard Trading Website',
-      tags: ['API', 'MVC', 'Development'],
+      tools: ['API', 'MVC', 'Development'],
       projectLink: 'https://www.rexiexchange.com.ng'
     },
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736242302/Screenshot_2025-01-07_102928_cujfl2.png',
       title: 'Dog Insurance Website',
-      tags: ['API', 'MVC', 'Development'],
+      tools: ['Web-design', 'Development'],
       projectLink: 'https://wisdommichaels.github.io/dogInsurance/'
     },
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245774/Screenshot_2025-01-07_112854_jhvliy.png',
       title: 'Sneaker Store Website',
-      tags: ['API', 'SPA'],
+      tools: ['Web-design', 'Development'],
       projectLink: 'https://wisdommichaels.github.io/Store-Landing-Page/'
     },
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245908/Screenshot_2025-01-07_113128_ecnfg3.png',
       title: 'Traveling Agency Website',
-      tags: ['Development', 'API'],
+      tools: ['Web-design', 'Development'],
       projectLink: ''
     },
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245458/Screenshot_2025-01-07_112350_xizmki.png',
-      title: 'RealTime Weather App',
-      tags: ['Web-design', 'Development'],
+      title: 'RealTime Weather App ',
+      tools: ['API', 'Development','SPA'],
       projectLink: 'https://wisdommichaels.github.io/Realtime_Weather_App/'
     },
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736246143/Screenshot_2025-01-07_113433_dlexqu.png',
       title: 'My Personal Portfolio',
-      tags: ['eCommerce', 'Development'],
+      tools: ['Web-design', 'Development'],
       projectLink: ''
     },
     // {
@@ -65,12 +65,12 @@ const Work = () => {
             </h2>
 
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] ">
-               {works.map(({imgSrc, title, tags, projectLink}, key) => (
+               {works.map(({imgSrc, title, tools, projectLink}, key) => (
                 <ProjectCard
                     key={key}
                     imgSrc={imgSrc}
                     title={title}
-                    tags={tags}
+                    tools={tools}
                     projectLink={projectLink}
                     classes="reveal-up"
                 />

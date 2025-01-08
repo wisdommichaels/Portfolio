@@ -10,8 +10,9 @@ import {ButtonPrimary, ButtonOutline} from "./Button"
 const Hero = () => {
   return (
    <section
+
     id="home"
-    className="pt-28 lg:pt-36"
+    className="gradient pt-28 lg:pt-36"
    >
     <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
         

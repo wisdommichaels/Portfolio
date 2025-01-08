@@ -32,23 +32,23 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://github.com/wisdommichaels'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/codewithsadee'
+      href: 'https://www.linkedin.com/in/wisdommichael'
     },
     {
       label: 'Twitter X',
-      href: 'https://x.com/codewithsadee_'
+      href: 'https://x.com/Boi_Wizzy001'
     },
     {
       label: 'Instagram',
-      href: 'https://www.instagram.com/codewithsadee'
+      href: 'https://www.instagram.com/fynboi_wizzy01'
     },
     {
-      label: 'CodePen',
-      href: 'https://codepen.io/codewithsadee'
+      label: 'Discord',
+      href: 'https://discord.gg/D3Srpysm'
     }
   ];
 
@@ -121,12 +121,16 @@ const Footer = () => {
                 href="/"
                 className="reveal-up"
                 >
-                    <img 
+                  
+                  <h1 className="text-sm lg:text-[16px] font-bold text-zinc-400">
+                    Wiz<span className="text-purple-400">Dev</span>
+                    </h1>
+                    {/* <img 
                     src="https://res.cloudinary.com/duwfbyhyq/image/upload/v1734090355/logo_hhzggz.webp" 
                     alt="logo" 
                     width={30}
                     height={30}
-                    />
+                    /> */}
 
 
                 </a>

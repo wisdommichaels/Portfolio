@@ -14,10 +14,8 @@ ratings.fill({
 
 const ReviewCard = ({
     content,
-    imgSrc,
     name,
     company,
-    classes
 }) => {
   return (
     <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
@@ -38,16 +36,15 @@ const ReviewCard = ({
         </p>
 
         <div className="flex items-center gap-2 mt-auto">
-            <figure className="img-box rounded-lg">
+            {/* <figure className="img-box rounded-lg">
                 <img
                 src={imgSrc}
-                alt={name}
                 width={30}
                 height={30}
                 loading="lazy"
                 className="img-cover"
                 />
-            </figure>
+            </figure> */}
 
             <div>
                 <p className="">
@@ -64,7 +61,7 @@ const ReviewCard = ({
 
 ReviewCard.propTypes = {
     content: PropTypes.string.isRequired,
-    imgSrc: PropTypes.string.isRequired,
+    // imgSrc: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
     classes: PropTypes.string

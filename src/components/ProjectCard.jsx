@@ -8,7 +8,7 @@ import PropTypes from "prop-types"
 const ProjectCard = ({
     imgSrc,
     title,
-    tags,
+    tools,
     projectLink,
     classes
 }) => {
@@ -34,7 +34,7 @@ const ProjectCard = ({
             </h3>
 
             <div className="flex flex-wrap items-center gap-2">
-                {tags.map((label, key) => (
+                {tools.map((label, key) => (
                     <span
                         key={key}
                         className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg"
@@ -67,7 +67,7 @@ const ProjectCard = ({
 ProjectCard.propTypes = {
     imgSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    tags: PropTypes.array.isRequired,
+    tools: PropTypes.array.isRequired,
     projectLink: PropTypes.string,
     classes: PropTypes.string
 }

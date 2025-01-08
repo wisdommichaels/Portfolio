@@ -19,38 +19,39 @@ import ReviewCard from "./ReviewCard";
 const reviews = [
     {
       content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
-      name: 'Sophia Ramirez',
-      imgSrc: '/images/people-1.jpg',
-      company: 'PixelForge'
+      name: 'Austine',
+      // imgSrc: '/images/people-1.jpg',
+      company: 'NIT'
+    },
+    
+    {
+      content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
+      name: 'Okpeta Gideon',
+      // imgSrc: '/images/people-3.jpg',
+      company: 'Amazon'
     },
     {
       content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
-      name: 'Ethan Caldwell',
-      imgSrc: '/images/people-2.jpg',
-      company: 'NexaWave'
-    },
-    {
-      content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
-      name: 'Liam Bennett',
-      imgSrc: '/images/people-3.jpg',
-      company: 'CodeCraft'
+      name: 'Okeke David',
+      // imgSrc: '/images/people-2.jpg',
+      company: 'GoMyCode'
     },
     {
       content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-      name: 'Noah Williams',
-      imgSrc: '/images/people-4.jpg',
-      company: 'BrightWeb'
+      name: 'Joseph',
+      // imgSrc: '/images/people-4.jpg',
+      company: 'LSE'
     },
     {
       content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
-      name: 'Ava Thompson',
-      imgSrc: '/images/people-5.jpg',
-      company: 'TechMosaic'
+      name: 'Christiana',
+      // imgSrc: '/images/people-5.jpg',
+      company: 'GoMyCode'
     },
     {
       content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
-      name: 'Jonathan',
-      imgSrc: '/images/people-6.jpg',
+      name: 'Esther',
+      // imgSrc: '/images/people-6.jpg',
       company: 'Skyline Digital'
     }
   ];
@@ -80,11 +81,10 @@ const Review = () => {
             </h2>
 
             <div className="scrub-slide flex items-stretch gap-3 w-fit">
-                {reviews.map(({content, name, imgSrc, company}, Key) => (
+                {reviews.map(({content, name, company}, Key) => (
                    <ReviewCard
                     key={Key}
                     name={name}
-                    imgSrc={imgSrc}
                     company={company}
                     content={content}
                     />
