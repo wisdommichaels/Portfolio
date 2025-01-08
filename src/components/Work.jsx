@@ -29,7 +29,7 @@ const works = [
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245908/Screenshot_2025-01-07_113128_ecnfg3.png',
       title: 'Traveling Agency Website',
       tools: ['Web-design', 'Development'],
-      projectLink: ''
+      projectLink: 'https://wisdommichaels.github.io/A-Traveling-Agency/'
     },
     {
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736245458/Screenshot_2025-01-07_112350_xizmki.png',
