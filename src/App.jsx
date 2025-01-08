@@ -32,8 +32,8 @@ const  App = () => {
       scrollTrigger: {
         trigger: element,
         start: "-200 bottom",
+        end: "bottom 80%",
         scrub: true,
-        markers: true,
       },
        y: 0,
        opacity: 1,
