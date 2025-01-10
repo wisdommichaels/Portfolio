@@ -20,7 +20,7 @@ const [navOpen, setNavOpen] = useState(false);
                 className="logo"
                 >
                     <h1 className="text-xl font-bold text-zinc-400">
-                    Wiz<span className="text-purple-400">Dev</span>
+                    Wiz<span className="text-purple-400 hover:text-purple-300">Dev</span>
                     </h1>
                     {/* <img 
                     src="https://res.cloudinary.com/duwfbyhyq/image/upload/v1734090355/logo_hhzggz.webp"
