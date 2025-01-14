@@ -38,7 +38,7 @@ const works = [
       projectLink: 'https://wisdommichaels.github.io/Realtime_Weather_App/'
     },
     {
-      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736246143/Screenshot_2025-01-07_113433_dlexqu.png',
+      imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736889145/Screenshot_2025-01-07_113433_ihnll1.png',
       title: 'My Personal Portfolio',
       tools: ['Web-design', 'Development'],
       projectLink: 'https://portfolio-rzig.vercel.app/'
