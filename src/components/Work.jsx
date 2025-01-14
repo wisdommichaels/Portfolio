@@ -41,7 +41,7 @@ const works = [
       imgSrc: 'https://res.cloudinary.com/duwfbyhyq/image/upload/v1736246143/Screenshot_2025-01-07_113433_dlexqu.png',
       title: 'My Personal Portfolio',
       tools: ['Web-design', 'Development'],
-      projectLink: ''
+      projectLink: 'https://portfolio-rzig.vercel.app/'
     },
     // {
     //   imgSrc: '/images/project-6.jpg',
