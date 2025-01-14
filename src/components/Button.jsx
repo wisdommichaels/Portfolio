@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 // Primary Button
 const ButtonPrimary = ({
     href,
-    target,
+    target = '_self',
     label,
     icon,
     classes
