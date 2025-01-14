@@ -18,7 +18,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Review from "./components/Review"
-import Skill from "./components/skill"
+import Skill from "./components/Skill"
 import Work from "./components/Work"
 
 
