@@ -42,6 +42,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
           <ButtonPrimary
+            href={"https://flowcv.com/resume/86htsgsidk"}
             label="Download CV"
             icon={"download"}
           />
