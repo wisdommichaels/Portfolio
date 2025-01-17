@@ -19,7 +19,7 @@ const [navOpen, setNavOpen] = useState(false);
                 href="/" 
                 className="logo"
                 >
-                    <h1 className="text-xl font-bold text-zinc-400">
+                    <h1 className="text-xl font-bold text-zinc-400 hover:text-zinc-200">
                     Wiz<span className="text-purple-400 hover:text-purple-300">Dev</span>
                     </h1>
                     {/* <img 
