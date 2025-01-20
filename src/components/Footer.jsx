@@ -36,7 +36,7 @@ const sitemap = [
     },
     {
       label: 'LinkedIn',
-      href: 'linkedin.com/in/wisdom-michael-060054348'
+      href: 'https://www.linkedin.com/in/wisdom-michael-060054348/'
     },
     {
       label: 'Twitter X',
