@@ -34,7 +34,7 @@ const About = () => {
                             <div key={key} className="">
                                 <div className="flex items-center md:mb-2">
                                    <span className=" text-2xl font-semibold md:text-4xl">{number}</span> 
-                                   <span className="text-purple-400 font-semibold md:text-3xl">+</span> 
+                                   <span className="text-purple-600 font-semibold md:text-3xl">+</span> 
                                 </div>
                                 <p className="text-zinc-400 text-sm">
                                     {label}
@@ -44,7 +44,7 @@ const About = () => {
                     }
 
                     <h1 className="text-[11px] lg:text-[18px] font-bold text-zinc-400 ml-auto">
-                    Wiz<span className="text-purple-400">Dev</span>
+                    Wiz<span className="text-purple-600">Dev</span>
                     </h1>
 
                     {/* <img 

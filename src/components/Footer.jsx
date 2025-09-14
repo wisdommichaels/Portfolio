@@ -123,7 +123,7 @@ const Footer = () => {
                 >
                   
                   <h1 className="text-sm lg:text-[16px] font-bold text-zinc-400">
-                    Wiz<span className="text-purple-400">Dev</span>
+                    Wiz<span className="text-purple-600">Dev</span>
                     </h1>
                     {/* <img 
                     src="https://res.cloudinary.com/duwfbyhyq/image/upload/v1734090355/logo_hhzggz.webp" 

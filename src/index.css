@@ -18,13 +18,13 @@ body {
 *Typography
 \* ==================== */
 
-.headline-1{
+/* .headline-1{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   
-}
+} */
 .headline-2{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
@@ -138,11 +138,11 @@ body {
 
 .btn{
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium
-  text-sm ring-1 ring-zinc-50/5 ring-inset hover:bg-purple-400  transition-[background-color]
+  text-sm ring-1 ring-zinc-50/5 ring-inset hover:bg-purple-600  transition-[background-color]
 }
 
 .btn-secondary{
-  @apply bg-purple-500 text-white active:bg-purple-300/80;
+  @apply bg-purple-700 text-white active:bg-purple-600/80;
 }
 
 .btn .material-symbols-rounded{
@@ -155,7 +155,7 @@ body {
 }
 
 .btn-primary {
-  @apply h-11 bg-purple-500 text-white hover:bg-purple-400 active:bg-purple-500;
+  @apply h-11 bg-purple-700 text-white hover:bg-purple-600 active:bg-purple-600/80;
 }
 
 .btn-outline {
@@ -170,7 +170,7 @@ body {
 
 .text-field{
   @apply outline-none w-full py-4 px-4 text-sm rounded-xl bg-zinc-800 text-zinc-50/50
-  ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-2 focus:ring-purple-400;
+  ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-2 focus:ring-purple-600;
 }
 
 .text-field::placeholder{
@@ -179,7 +179,7 @@ body {
 
 
 .gradient {
-	background: linear-gradient(334deg,  #09090B, #09090B, #09090B, #09090B, #09090B,#864BC0);
+	background: linear-gradient(334deg,  #09090B, #09090B, #09090B, #09090B, #09090B,#561b92);
 	background-size: 180% 180%;
 	animation: gradient-animation 6s ease infinite;
 }

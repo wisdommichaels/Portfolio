@@ -19,8 +19,8 @@ const [navOpen, setNavOpen] = useState(false);
                 href="/" 
                 className="logo"
                 >
-                    <h1 className="text-xl font-bold text-zinc-400 hover:text-zinc-200">
-                    Wiz<span className="text-purple-400 hover:text-purple-300">Dev</span>
+                    <h1 className="text-3xl font-bold text-zinc-400 hover:text-zinc-200">
+                    Wiz<span className="text-purple-500 hover:text-purple-300">Dev</span>
                     </h1>
                     {/* <img 
                     src="https://res.cloudinary.com/duwfbyhyq/image/upload/v1734090355/logo_hhzggz.webp"
@@ -36,7 +36,7 @@ const [navOpen, setNavOpen] = useState(false);
                 className="menu-btn md:hidden"
                 onClick={() => setNavOpen((prev) => !prev)}
                 >
-                <span class="material-symbols-rounded">
+                <span className="material-symbols-rounded">
                     {navOpen ? "Close" : "Menu"}
                 </span>
                 </button>

@@ -45,7 +45,7 @@ const ProjectCard = ({
             </div>
             </div>
 
-            <div className="w-11 h-11 rounded-lg bg-purple-500 hover:bg-purple-400 grid  place-items-center shrink-0">
+            <div className="w-11 h-11 rounded-lg bg-purple-600 hover:bg-purple-900 grid  place-items-center shrink-0">
                 <span 
                 className=" material-symbols-rounded"
                 aria-hidden="true"
