@@ -65,7 +65,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 30, opacity: 0 }}
               transition={{ duration: 0.9, ease: "easeOut" }}
-              className="inline-block !text-purple-700 min-w-[7ch]"
+              className="inline-block !text-purple-600 min-w-[7ch]"
             >
               {words[index]}
             </motion.span>{" "}
