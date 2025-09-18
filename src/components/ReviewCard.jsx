@@ -4,7 +4,6 @@
  */
 import PropTypes from "prop-types"
 
-
 const ratings = new Array(5);
 ratings.fill({
     icon: 'star',
@@ -18,7 +17,7 @@ const ReviewCard = ({
     company,
 }) => {
   return (
-    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
+    <div className="bg-zinc-800 p-5 rounded-xl  min-w-[360px] flex flex-col lg:min-w-[420px]">
 
         <div className="flex items-center gap-1 mb-3">
             {ratings.map(({icon, style}, key) => (
@@ -31,7 +30,7 @@ const ReviewCard = ({
             ))}
         </div>
 
-        <p className="text-zinc-400 mb-8 ">
+        <p className="text-zinc-400 mb-8 min-w-full">
             {content}
         </p>
 
@@ -45,7 +44,6 @@ const ReviewCard = ({
                 className="img-cover"
                 />
             </figure> */}
-
             <div>
                 <p className="">
                     {name}

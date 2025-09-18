@@ -7,10 +7,12 @@
 \* ==================== */
 html {
 scroll-behavior: smooth ;
+overflow-x: hidden;
 }
 
 body {
   @apply bg-zinc-950  text-zinc-50;
+  
 }
 
 
@@ -85,7 +87,7 @@ body {
 }
 
 .section{
-  @apply pt-20 lg:pt-32;
+  @apply pt-12 lg:pt-32;
 }
 
 .reveal-up{
@@ -195,3 +197,5 @@ body {
 		background-position: 0% 50%;
 	}
 } */
+
+
